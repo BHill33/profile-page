@@ -50,48 +50,43 @@ nav ul li a{
 
 .about-me {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 1rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 6fr;
+  padding: 1.5rem;
 }
 
 .about-me h2 {
-  text-align: bottom;
+  margin: 0;
   grid-column: 1/span 2;
   grid-row: 1;
   justify-content: center;
 }
 
 .about-me p {
-  text-align: center;
   grid-column: 1/span 2;
   grid-row: 2;
-  justify-content: center;
+  margin: 0;
 }
 
 .about-me img {
   margin: auto;
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 90%;
+  max-height: 90%;
   grid-column: 3;
   grid-row: 1/span 2;
-}
-
-.work {
-  background-color: #e9f7ec;
 }
 
 .my-work {
   background-color: #e9f7ec;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 3fr 3fr;
+  grid-template-rows: 1fr 6fr 6fr;
   padding: 1.5rem;
-  gap: 1.5rem;
   justify-content: center;
 }
 
 .my-work h2{
+  margin: 0;
   grid-column: 1/span 3;
   grid-row: 1;
 }
@@ -100,6 +95,7 @@ nav ul li a{
   margin: auto;
   max-width: 50%;
   max-width: 50%;
+  /* border: 3px solid #154f30; */
 }
 
 footer {
