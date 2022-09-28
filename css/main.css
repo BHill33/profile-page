@@ -13,6 +13,9 @@ body {
   color: #222;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+    max-width: 1080px;
+    align-content: center;
+    margin: auto;
 }
 
 img {
@@ -82,7 +85,6 @@ nav ul li a{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 6fr 6fr;
   padding: 1.5rem;
-  justify-content: center;
 }
 
 .my-work h2{
@@ -95,7 +97,6 @@ nav ul li a{
   margin: auto;
   max-width: 50%;
   max-width: 50%;
-  /* border: 3px solid #154f30; */
 }
 
 footer {
